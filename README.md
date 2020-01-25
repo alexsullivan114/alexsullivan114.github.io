@@ -1,0 +1,1 @@
+Living that blog life.
