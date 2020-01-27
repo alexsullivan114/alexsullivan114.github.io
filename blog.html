@@ -1,13 +1,16 @@
 ---
+layout: wrapper
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <div>
-  Yoha broha!
+<div class="post-page-container">
+  <div style="align-items: flex-start; justify-content: flex-start;">
+    <h1>Posts</h1>
+    <div class="post-list-container">
+    {% for post in site.posts %}
+    <div class="post-list-item-container">
+      <p class="post-date">{{ post.date | date: '%Y-%m-%d' }} </p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </div>
-  </body>
-</html>
+    {% endfor %}
+    </div>
+  </div>
+</div>

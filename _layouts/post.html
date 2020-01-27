@@ -1,18 +1,12 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <article class="post-container">
-      <header class="header">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.date | date: '%B %d, %Y' }}</p>
-      </header>
-      <div class="post">
-        {{ content }}
-      </div>
-    </article>
-  </body>
-</html>
+---
+layout: wrapper
+---
+<article class="post-container">
+  <header class="header">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date: '%B %d, %Y' }}</p>
+  </header>
+  <div class="post">
+    {{ content }}
+  </div>
+</article>

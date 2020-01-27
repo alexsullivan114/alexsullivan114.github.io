@@ -28,6 +28,12 @@ pre>code {
   padding-right: 0px;
   background-color: transparent;
 }
+
+footer>a {
+  text-decoration: none;
+  color: black;
+}
+
 .flex-container {
   display: flex;
   align-items: center; 
@@ -52,6 +58,7 @@ pre>code {
 .header>p {
   color: #a8a8a8;
 }
+
 footer {
   text-align: center;
   margin-top: auto;
@@ -65,15 +72,34 @@ footer {
 }
 
 .footer-divider {
-  width: 5px;
+  width: 3px;
   height: 20px;
   background-color: black;
   margin-left: 8px;
   margin-right: 8px;
 }
-a {
-  text-decoration: none;
-  color: black;
+
+.post-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-list-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.post-list-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-date {
+  margin-right: 16px;
 }
 
 /** Syntax highlighting styles */
