@@ -35,6 +35,16 @@ pre>code {
 .post {
   max-width: 50%
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.header>p {
+  color: #a8a8a8;
+}
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 
