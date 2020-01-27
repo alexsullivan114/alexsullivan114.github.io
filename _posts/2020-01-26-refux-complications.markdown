@@ -16,8 +16,10 @@ And some more text. Pretty good stuff.
 
 # A smaller? or maybe bigger header I don't know honestly.
 
-```javascript
-fun someCode() {
+```java
+class Main {
+   static void main (String[] args) {
+   }
 }
 ```
 
