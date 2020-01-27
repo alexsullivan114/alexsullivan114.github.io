@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+body {
+  line-height: 1.5em;
+}
+pre, code {
+  background-color: #eef;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: monospace;
+}
+.flex-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.post {
+  max-width: 50%
+}
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <h1>This is not a post.</h1>
+    </div>
+    <hr/>
+    <div class="post-container">
+      <div class="post">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

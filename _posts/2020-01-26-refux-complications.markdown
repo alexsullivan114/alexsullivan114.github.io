@@ -8,3 +8,17 @@ permalink: "/examining-redux-costs/"
 ---
 
 Example content
+
+
+## Check it out this is a header I think.
+
+And some more text. Pretty good stuff.
+
+# A smaller? or maybe bigger header I don't know honestly.
+
+```javascript
+fun someCode() {
+}
+```
+
+`I don't remember what this does`
