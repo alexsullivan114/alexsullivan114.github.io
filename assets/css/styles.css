@@ -1,6 +1,13 @@
+html {
+  height:100%;
+  margin:0;
+}
 body {
   line-height: 1.5em;
   font-size: large;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 code {
   background-color: #eef;
@@ -45,6 +52,30 @@ pre>code {
 .header>p {
   color: #a8a8a8;
 }
+footer {
+  text-align: center;
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 4px;
+}
+
+.footer-divider {
+  width: 5px;
+  height: 20px;
+  background-color: black;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 
