@@ -22,7 +22,7 @@ pre {
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
-  overflow: scroll;
+  white-space: pre-wrap;
 }
 pre>code {
   padding-left: 0px;
@@ -43,12 +43,13 @@ footer>a {
 .post-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; 
+  margin: auto;
 }
+
 .post {
-  max-width: 50%;
+  max-width: max(50vw, 800px);
 }
+
 .header {
   display: flex;
   flex-direction: column;
