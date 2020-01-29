@@ -243,13 +243,13 @@ const SubmitScreen = () => {
     const {name, address, email, creditCard} = wizardState;
     if (!name || !address || !email || !creditCard) {
         return null;
-    }
+    } else {
+        const onSubmitClicked = () => {
+            postMyGarbage(name, address, email, creditCard)
+        }
 
-    const onSubmitClicked = () => {
-        postMyGarbage(name, address, email, creditCard)
+        return ...
     }
-
-    return ...
 }
 ```
 
@@ -257,7 +257,7 @@ But the damage is done. We're now explicitly allowing error states in our type
 system, and we're relying on the programmer to know not to use a component in
 the wrong place.
 
-That sort of implicit coupling feels super dangerous. 
+That sort of implicit coupling feels _wrong_. 
 
 In our non Redux flow, you could never get into this state. Since `SubmitScreen`
 took in all of its necessary data as props, there was no way to build it without
@@ -266,5 +266,6 @@ the required data.
 And that's my main problem with Redux.
 
 I imagine Redux is super useful if you have _really, really_ complicated state,
-but I'm not convinced in its value just to share data between components.
+but when you're just trying to share data between components it feels kind of
+bad.
 
