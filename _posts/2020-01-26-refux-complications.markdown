@@ -146,7 +146,7 @@ And we now have some chunk of state in the store that needs to be modelled:
 interface WizardState {
     name: string | null
     address: Address | null
-    email: String | null
+    email: string | null
     ccNumber: number | null
     ccSecurityCode: number | null
 }
