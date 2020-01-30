@@ -112,7 +112,7 @@ const SubmitScreen = ({name, address, email, creditCard}: SubmitScreenProps) => 
     return ...
 }
 ```
-There's a bit of noise since we're passing argument through as we go, and these
+There's a bit of noise since we're passing arguments through as we go, and these
 components may know more than we might like, but it's pretty simple to
 read through and we know we have all of the data once we get to this final stage.
 
