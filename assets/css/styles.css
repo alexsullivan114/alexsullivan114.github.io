@@ -43,7 +43,8 @@ footer>a {
 .post-container {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post {
@@ -70,7 +71,8 @@ footer {
   justify-content: center;
   width: 100%;
   background-color: #d3d3d3;
-  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .footer-divider {
@@ -102,6 +104,10 @@ footer {
 
 .post-date {
   margin-right: 16px;
+}
+
+article {
+  margin-bottom: 80px;
 }
 
 /** Syntax highlighting styles */
