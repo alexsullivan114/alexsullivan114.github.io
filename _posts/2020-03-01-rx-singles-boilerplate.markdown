@@ -5,8 +5,8 @@ date: 2020-03-01 07:13:00 -0500
 permalink: "/damn-you-singles/"
 ---
 
-I just started working on a new codebase that makes very heavy use of RX and
-what I realized was that the thing that's painful about codebases that do
+I just started working on a new codebase that makes heavy use of RxJava and
+what I realized is that the thing that's painful about codebases that do
 everything in Rx isn't the fundamental Rx principles, it's that we're using
 `Single` and `Completable` in places where we should just be doing imperative
 programming.
@@ -21,6 +21,7 @@ mySingle
          }
           else Completable.complete()
          }
+    }
  ``` 
 
 `Single`,`Completable`, and `Maybe` just carry a lot of boilerplate with
