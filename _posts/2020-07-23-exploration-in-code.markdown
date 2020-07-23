@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Garbage code is the fastest way to beautiful code"
-date: 2020-07-2333 09:00:00 -0500
+date: 2020-07-23 09:00:00 -0500
 permalink: "/beautiful-garbage/"
 ---
 
