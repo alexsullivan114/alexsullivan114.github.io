@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Gerald"
-date: 2021-01-29
+date: 2021-01-29 09:52:00 -0500
 permalink: "/gerald/"
 ---
 
-#Gerald
+# Gerald
 
 There once was a mouse named Gerald. I don't know why his name was Gerald - most
 mice don't have names.
@@ -75,4 +75,4 @@ Thus ended Geralds peaceful existence. While he never saw the squirrel again, he
 was never again at ease in his own home, and his understanding of his universe
 was thoroughly undermined. 
 
-#The End
+# The End
